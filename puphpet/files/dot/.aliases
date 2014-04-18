@@ -1,3 +1,6 @@
+##/
+# -- For Mac Uncomment mofos
+##
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -95,28 +98,9 @@ alias badge="tput bel"
 #alias pumpitup="osascript -e 'set volume 7'"
 #alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
-alias chmweb='sh /usr/local/sbin/chmod_websites.sh'
-alias alpha='ssh v.flesouras@alphaweb.yourwebpress.com'
-alias alpha2='ssh v.flesouras@alphaweb2.yourwebpress.com'
-alias db1='ssh v.flesouras@db1.yourwebpress.com'
-alias ns1='ssh goywp@ns1.yourwebpress.com'
-alias ymail='ssh v.flesouras@mail.yourwebpress.com'
-alias gaia='ssh v.flesouras@gaia.aristotle.net'
-alias cloudmail='ssh v.flesouras@108.171.174.51'
-alias cloudweb='ssh v.flesouras@108.166.107.85'
-alias hyperion='ssh v.flesouras@hyperion.aristotle.net'
-alias argonaut='ssh v.flesouras@argonaut.aristotle.net'
-alias argo='ssh v.flesouras@www3.aristotleselect.com'
-alias ubuntudev='ssh vincent@ubuntudev.aristotle.net'
-alias gandalf='ssh v.flesouras@gandalf.aristotleselect.com'
-alias elminster='ssh v.flesouras@elminster.aristotleselect.com'
-alias sazed='ssh v.flesouras@sazed.aristotleselect.com'
-alias ppt-master='ssh v.flesouras@ppt-master.aristotleselect.com'
-#Mine
-alias penguin='ssh x.algorithm@www.xalg.im'
+
 
 ######Git Aliases########
-alias ginfo="ssh git@git.aristotle.net info"
 alias gage="git stage -A"
 alias gommit="git commit -a"
 alias gush="git push --all"
